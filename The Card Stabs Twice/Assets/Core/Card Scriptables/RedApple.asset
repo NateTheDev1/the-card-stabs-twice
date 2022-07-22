@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2671ef2427d61304b869169752099aa5, type: 3}
+  m_Name: RedApple
+  m_EditorClassIdentifier: 
+  ID: 1
+  cardName: Red Apple
+  damage: 2
+  cardColor: 0
+  buffDescription: Regenerate 1 health for the next red card your opponent plays
+  effectForRounds: 0
+  ignoreEffectForRoundsMakeInfinite: 1
+  effectTypeID: DBL_DAMAGE
+  cardFaceImage: {fileID: 21300000, guid: a561ae55a8aab284396d247771966272, type: 3}

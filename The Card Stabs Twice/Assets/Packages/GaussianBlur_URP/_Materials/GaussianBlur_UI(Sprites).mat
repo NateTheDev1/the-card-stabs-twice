@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10,7 +10,8 @@ Material:
   m_Name: GaussianBlur_UI(Sprites)
   m_Shader: {fileID: -6465566751694194690, guid: 148abe62744ef47419d72b8f327e003d,
     type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -76,6 +77,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Boolean_457D09A7: 1
     - Vector1_B8FCC477: 1
@@ -83,7 +85,7 @@ Material:
     - Vector1_EB11BF57: 0.75
     - _AlphaClip: 0
     - _Blend: 0
-    - _BlurScale: 65.93964
+    - _BlurScale: 100
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
@@ -105,7 +107,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _useCameraOpaqueTexture: 0
+    - _useCameraOpaqueTexture: 1
     m_Colors:
     - Color_77368785: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
